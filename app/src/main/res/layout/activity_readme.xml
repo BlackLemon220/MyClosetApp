@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/closet"
+    android:id="@+id/backgroung"
+    >
+    <TextView
+        android:id="@+id/simpleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Our application helps you managing your own real closet. By signing in, you are able to view, add and remove your clothes, and choosing your own set for today!
+By choosing for every set a category, you are able to choose your set for next time you to to the gym, work and even wedding."
+        android:layout_centerInParent="true"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="25dp"
+        />
+</android.support.constraint.ConstraintLayout>
